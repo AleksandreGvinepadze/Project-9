@@ -1,0 +1,155 @@
+@media  (width < 768px){
+    .tabkeyboard1,
+    .keyboardorangetab,
+    .keyboardmousetab,
+    .deskeyboard1,
+    .keyboardorangedesk,
+    .keyboardmousedesk,
+    .white,
+    .white2{
+        display: none;
+    }
+        
+}
+
+
+
+
+
+
+@media (width >= 768px){
+    .headermobile{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 39px;
+        padding-right: 40px;
+        padding-top: 40px;
+    }
+
+    .mobilewrapper1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 39px;
+    }
+
+    .tabkeyboard1{
+        position: relative;
+        right: 120px;
+    }
+
+    .mobkeyboard1,
+    .mobleft,
+    .monright{
+        display: none;
+    }
+
+    .mobmiddle{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mobmechanical{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+        
+    .mobcontent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 39px;
+        padding-right: 98px;
+        align-items: center;
+        gap: 25px;
+    }
+
+    }
+
+
+@media (width < 1440px){
+    .deskkeyboard1,
+    .keyboardmousedesk,
+    .keyboardorangedesk,
+    .white,
+    .white2{
+        display: none;
+    }
+}
+
+@media (width >= 1440px){
+       .tabkeyboard1,
+       .keyboardorangetab,
+       .keyboardmousetab{
+        display: none;
+       }
+    
+    .headermobile{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .mobilewrapper1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    .keyboardmobile{
+        display: flex;
+    }
+
+.mobheadingcontent1 h1{
+    max-width: 445px;
+}
+.mobmiddle{
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row; 
+    flex-wrap: nowrap;
+}   
+
+.mobmechanical{
+    flex-direction: column;
+    gap: 27px;
+    
+}
+
+.mobcontent{
+    align-items: center;
+    justify-content: center;
+}
+
+.pair1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pair2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+
+
+
+
+
